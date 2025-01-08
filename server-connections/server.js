@@ -9,7 +9,7 @@ const app = express();
 
 // Configure CORS
 app.use(cors({
-  origin: 'http://localhost:4200', // Replace with your frontend URL
+  origin: 'https://gbmobile.onrender.com/', // Replace with your frontend URL
   methods: 'GET,POST,PUT,DELETE',
   allowedHeaders: 'Content-Type, Authorization',
   credentials: true // Include if your request requires cookies

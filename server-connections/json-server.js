@@ -8,7 +8,7 @@ const middlewares = jsonServer.defaults();
 // Enable CORS
 app.use(
   cors({
-    origin: "http://localhost:4200", // Replace with your frontend URL
+    origin: "https://gbmobile.onrender.com/", // Replace with your frontend URL
     methods: "GET,POST,PUT,DELETE",
     allowedHeaders: "Content-Type, Authorization",
   })
